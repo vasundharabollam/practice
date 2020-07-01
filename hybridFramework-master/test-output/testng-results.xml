@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[title displayed]]>
+    </line>
+    <line>
+      <![CDATA[title displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13935" started-at="2020-03-31T12:27:56 IST" finished-at="2020-03-31T12:28:10 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13935" started-at="2020-03-31T12:27:56 IST" finished-at="2020-03-31T12:28:10 IST">
+      <class name="regressionTestScripts.ValidLoginLogout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:regressionTestScripts.ValidLoginLogout@3aeaafa6]" name="setUp" is-config="true" duration-ms="235" started-at="2020-03-31T12:27:56 IST" finished-at="2020-03-31T12:27:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAppn(java.lang.String)[pri:0, instance:regressionTestScripts.ValidLoginLogout@3aeaafa6]" name="openAppn" is-config="true" duration-ms="7636" started-at="2020-03-31T12:27:56 IST" finished-at="2020-03-31T12:28:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppn -->
+        <test-method status="PASS" signature="validloginlogout()[pri:0, instance:regressionTestScripts.ValidLoginLogout@3aeaafa6]" name="validloginlogout" duration-ms="5501" started-at="2020-03-31T12:28:04 IST" finished-at="2020-03-31T12:28:09 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[title displayed]]>
+            </line>
+            <line>
+              <![CDATA[title displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validloginlogout -->
+        <test-method status="PASS" signature="closeAppn(org.testng.ITestResult)[pri:0, instance:regressionTestScripts.ValidLoginLogout@3aeaafa6]" name="closeAppn" is-config="true" duration-ms="770" started-at="2020-03-31T12:28:09 IST" finished-at="2020-03-31T12:28:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validloginlogout status=SUCCESS method=ValidLoginLogout.validloginlogout()[pri:0, instance:regressionTestScripts.ValidLoginLogout@3aeaafa6] output=title displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:regressionTestScripts.ValidLoginLogout@3aeaafa6]" name="tearDown" is-config="true" duration-ms="493" started-at="2020-03-31T12:28:10 IST" finished-at="2020-03-31T12:28:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- regressionTestScripts.ValidLoginLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
